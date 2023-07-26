@@ -65,3 +65,21 @@ body {
   background-color: rgba(0, 0, 0, 0.41);
   right: 0;
 }
+
+.icon-humberger {
+  width: 32px;
+  padding: 4px;
+}
+.icon-humberger img {
+  width: 100%;
+}
+
+.bx-open-menu {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7803921569);
+  top: 55px;
+  z-index: 9;
+}

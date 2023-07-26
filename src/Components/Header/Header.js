@@ -1,23 +1,42 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../assets/css/HeaderNav.css';
-import humberger from '../assets/images/humberger.png';
+import iconHumberger from '../assets/images/humberger.png';
+import iconHumbergerClose from '../assets/images/humberger-close.png';
 import logo from '../assets/images/logo.png';
 
 const Header = () => {
-  return (
-    <header>
-        <div className='container'>
-            <div className='header-menu'>
-                <div className='bx-menu'>
-                    <img src={humberger} alt='' />
+
+    const [humberger, setHumberger] = useState(true);
+
+    const ShowMenu = ()=>{
+        setHumberger(!humberger);
+    }
+
+    return (
+        <header>
+            <div className='container'>
+                <div className='header-menu'>
+                    <div className='bx-menu'>
+                        <div onClick={ShowMenu} className='icon-humberger'>
+                            {
+                                humberger ? 
+                                <img src={iconHumberger} alt='' />
+                                : 
+                                <img src={iconHumbergerClose} alt='' />
+                            }
+                        </div>
+                        {
+                            humberger ? 
+                            null : <div className='bx-open-menu'>lorem ipsum </div>
+                        }  
+                    </div>
+                </div>
+                <div className='header-logo'>
+                    <img src={logo} alt='' />
                 </div>
             </div>
-            <div className='header-logo'>
-                <img src={logo} alt='' />
-            </div>
-        </div>
-    </header>
-  )
+        </header>
+    )
 }
 
 export default Header
