@@ -1,0 +1,49 @@
+.sec-whatWeCreate {
+  background-color: black;
+  padding: 60px 0 116px;
+  font-family: "Mulish", sans-serif;
+  position: relative;
+}
+.sec-whatWeCreate .banner-whatWeCreate {
+  margin-top: 40px;
+  text-align: center;
+}
+.sec-whatWeCreate .slick-slide {
+  padding: 30px 0;
+}
+.sec-whatWeCreate .slick-slide img {
+  height: 338px;
+}
+.sec-whatWeCreate .slick-slide.slick-active.slick-center.slick-current {
+  padding: 0px 0;
+}
+.sec-whatWeCreate .slick-slide.slick-active.slick-center.slick-current img {
+  height: 395px;
+}
+
+.whatWeCreate-slider .slick-prev, .whatWeCreate-slider .slick-next {
+  top: unset;
+  bottom: -7%;
+}
+.whatWeCreate-slider .slick-prev::before, .whatWeCreate-slider .slick-next::before {
+  content: "";
+  width: 23px;
+  height: 24px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 1;
+}
+.whatWeCreate-slider .slick-prev {
+  right: 40px;
+  left: unset;
+}
+.whatWeCreate-slider .slick-next {
+  right: 0px;
+}
+.whatWeCreate-slider .slick-prev:before {
+  background: url("../images/arrow_back_white.png") no-repeat;
+}
+.whatWeCreate-slider .slick-next:before {
+  background: url("../images/arrow_next_white.png") no-repeat;
+}

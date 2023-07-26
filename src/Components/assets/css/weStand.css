@@ -1,0 +1,68 @@
+.sec-weStand {
+  background-color: #F7E9E9;
+  display: flex;
+  padding-bottom: 80px;
+}
+.sec-weStand .container {
+  position: relative;
+}
+.sec-weStand .title-ww-create {
+  color: #000;
+  margin-top: 105px;
+}
+.sec-weStand .bx-weStand {
+  margin-top: 40px;
+}
+.sec-weStand .bx-weStand ul {
+  display: flex;
+  justify-content: space-between;
+}
+.sec-weStand .bx-weStand ul li .item-weStand {
+  position: relative;
+}
+.sec-weStand .bx-weStand ul li .item-weStand::before {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 245px;
+  border: 2px solid #E24343;
+  left: -8px;
+  top: 5px;
+  z-index: 0;
+}
+.sec-weStand .bx-weStand ul li .item-weStand .in-item-westand {
+  background: #fff;
+  padding: 32px 32px;
+  text-align: center;
+  border: 1px solid #E24343;
+  width: 200px;
+  height: 245px;
+  position: relative;
+  z-index: 9;
+}
+.sec-weStand .bx-weStand ul li .item-weStand .in-item-westand p {
+  font-size: 18px;
+  font-weight: bold;
+}
+.sec-weStand .bx-weStand ul li .item-weStand .in-item-westand .img-item-westand {
+  margin-top: 40px;
+}
+.sec-weStand .scroll-line-horizontal {
+  top: 49px;
+  left: unset;
+  background-color: rgba(0, 0, 0, 0.41);
+  right: 0;
+}
+.sec-weStand .pulse {
+  background: #000;
+  left: 0;
+  animation: shadow-pulse-westand 1.5s infinite;
+}
+@keyframes shadow-pulse-westand {
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.582);
+  }
+  100% {
+    box-shadow: 0 0 7px 25px rgba(0, 0, 0, 0);
+  }
+}

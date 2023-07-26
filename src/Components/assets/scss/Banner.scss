@@ -1,0 +1,225 @@
+.sec-banner {
+    position: relative;
+    text-align: left;
+
+    .video-banner {
+        width: 100%;
+
+        video {
+            width: 100%;
+            display: flex;
+        }
+    }
+
+    .overlay-banner {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #00000091;
+    }
+
+    .content-banner {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        z-index: 1;
+        color: #fff;
+        text-align: left;
+
+        .container {
+            height: 100%;
+        }
+    }
+
+    .bx-view-like-following {
+        width: 526px;
+        margin: 129px 0 0 28%;
+
+        .view-like-following {
+            min-height: 260px;
+            position: relative;
+            width: 100%;
+        }
+    }
+
+    .follower-growth {
+        width: 210px;
+        height: 52px;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .view-growth {
+        width: 190px;
+        height: 52px;
+        position: absolute;
+        left: 0;
+        top: 120px;
+    }
+
+    .like-growth {
+        width: 150px;
+        height: 42px;
+        position: absolute;
+        right: 60px;
+        bottom: 0;
+    }
+
+    .lower-content {
+        margin-top: 110px;
+        font-family: 'Mulish', sans-serif;
+        padding-left: 36px;
+
+        h3 {
+            background-color: #e24343a1;
+            font-size: 28px;
+            text-transform: uppercase;
+            color: #fff;
+            padding: 12px;
+            display: inline-block;
+            font-weight: 900;
+
+        }
+
+        p {
+            font-size: 64px;
+            text-transform: capitalize;
+            color: #fff;
+            display: block;
+            margin: 0;
+            line-height: 60px;
+            margin-top: 36px;
+            font-weight: 900;
+        }
+    }
+
+    .bounce2 {
+        animation: bounce2 3s ease infinite;
+    }
+
+    @keyframes bounce2 {
+
+        0%,
+        20%,
+        50%,
+        80%,
+        100% {
+            transform: translateY(0);
+        }
+
+        40% {
+            transform: translateY(-15px);
+        }
+
+        60% {
+            transform: translateY(-7px);
+        }
+    }
+
+    .bounce-view {
+        animation: bounce-view 4s ease infinite;
+    }
+
+    @keyframes bounce-view {
+
+        0%,
+        20%,
+        50%,
+        80%,
+        100% {
+            transform: translateY(0);
+        }
+
+        40% {
+            transform: translateY(-15px);
+        }
+
+        60% {
+            transform: translateY(-7px);
+        }
+    }
+
+    .bounce-like {
+        animation: bounce-view 5s ease infinite;
+    }
+
+    @keyframes bounce-like {
+
+        0%,
+        20%,
+        50%,
+        80%,
+        100% {
+            transform: translateY(0);
+        }
+
+        40% {
+            transform: translateY(-15px);
+        }
+
+        60% {
+            transform: translateY(-7px);
+        }
+    }
+
+    .bx-banner-content {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+        padding-bottom: 70px;
+    }
+
+    .scroll-line {
+        position: absolute;
+        left: 15px;
+        top: 0;
+        height: 100%;
+        width: 1px;
+        background-color: #ffffff52;
+    }
+
+    // @keyframes shadow-pulse {
+    //     0% {
+    //         box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.582);
+    //     }
+
+    //     100% {
+    //         box-shadow: 0 0 7px 25px rgba(0, 112, 244, 0);
+    //     }
+    // }
+
+    // .pulse {
+    //     margin: 25% auto 0 auto;
+    //     width: 13px;
+    //     height: 13px;
+    //     background: #fff;
+    //     border-radius: 50px;
+    //     animation: shadow-pulse 1.5s infinite;
+    //     position: absolute;
+    //     left: -5px;
+    //     top: 69.3%;
+    // }
+}
+
+.TxtwhatWeCreate {
+    margin-top: 42px;
+    .talkToUs {
+        display: flex;
+        justify-content: space-between;
+        color: #fff;
+        gap: 64px;
+        padding-left: 54px;
+    }
+
+    .contentTalkToUs {
+        p {
+            font-size: 20px;
+        }
+    }
+}

@@ -1,0 +1,157 @@
+.sec-banner {
+  position: relative;
+  text-align: left;
+}
+.sec-banner .video-banner {
+  width: 100%;
+}
+.sec-banner .video-banner video {
+  width: 100%;
+  display: flex;
+}
+.sec-banner .overlay-banner {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.568627451);
+}
+.sec-banner .content-banner {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  color: #fff;
+  text-align: left;
+}
+.sec-banner .content-banner .container {
+  height: 100%;
+}
+.sec-banner .bx-view-like-following {
+  width: 526px;
+  margin: 129px 0 0 28%;
+}
+.sec-banner .bx-view-like-following .view-like-following {
+  min-height: 260px;
+  position: relative;
+  width: 100%;
+}
+.sec-banner .follower-growth {
+  width: 210px;
+  height: 52px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.sec-banner .view-growth {
+  width: 190px;
+  height: 52px;
+  position: absolute;
+  left: 0;
+  top: 120px;
+}
+.sec-banner .like-growth {
+  width: 150px;
+  height: 42px;
+  position: absolute;
+  right: 60px;
+  bottom: 0;
+}
+.sec-banner .lower-content {
+  margin-top: 110px;
+  font-family: "Mulish", sans-serif;
+  padding-left: 36px;
+}
+.sec-banner .lower-content h3 {
+  background-color: rgba(226, 67, 67, 0.631372549);
+  font-size: 28px;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 12px;
+  display: inline-block;
+  font-weight: 900;
+}
+.sec-banner .lower-content p {
+  font-size: 64px;
+  text-transform: capitalize;
+  color: #fff;
+  display: block;
+  margin: 0;
+  line-height: 60px;
+  margin-top: 36px;
+  font-weight: 900;
+}
+.sec-banner .bounce2 {
+  animation: bounce2 3s ease infinite;
+}
+@keyframes bounce2 {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-15px);
+  }
+  60% {
+    transform: translateY(-7px);
+  }
+}
+.sec-banner .bounce-view {
+  animation: bounce-view 4s ease infinite;
+}
+@keyframes bounce-view {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-15px);
+  }
+  60% {
+    transform: translateY(-7px);
+  }
+}
+.sec-banner .bounce-like {
+  animation: bounce-view 5s ease infinite;
+}
+@keyframes bounce-like {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-15px);
+  }
+  60% {
+    transform: translateY(-7px);
+  }
+}
+.sec-banner .bx-banner-content {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  padding-bottom: 70px;
+}
+.sec-banner .scroll-line {
+  position: absolute;
+  left: 15px;
+  top: 0;
+  height: 100%;
+  width: 1px;
+  background-color: rgba(255, 255, 255, 0.3215686275);
+}
+
+.TxtwhatWeCreate {
+  margin-top: 42px;
+}
+.TxtwhatWeCreate .talkToUs {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  gap: 64px;
+  padding-left: 54px;
+}
+.TxtwhatWeCreate .contentTalkToUs p {
+  font-size: 20px;
+}

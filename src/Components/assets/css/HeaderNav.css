@@ -1,0 +1,25 @@
+header {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+header .container {
+  position: relative;
+}
+header .header-menu {
+  position: absolute;
+  left: 0;
+  top: 37px;
+}
+header .header-menu .bx-menu {
+  width: 34px;
+  padding: 2px;
+}
+header .header-menu .bx-menu img {
+  width: 100%;
+}

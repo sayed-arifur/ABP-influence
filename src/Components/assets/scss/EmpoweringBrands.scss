@@ -1,0 +1,61 @@
+.sec-empoweringBrands {
+    background-color: black;
+    .img-brands {
+        width: 390px;
+        background-color: #ccc;
+        text-align: center;
+    }
+
+    .bx-empoweringBrands {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        height: 800px;
+
+
+        .SLR-vertical-Small {
+            height: 255px;
+            background-color: rgb(255 255 255 / 41%);
+            right: 27%;
+            bottom: 0;
+        }
+        .pulse {
+            background: #fff;
+            left: -6px;
+            top: unset;
+        }
+        @keyframes shadow-pulse {
+            0% {
+                box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.582);
+            }
+
+            100% {
+                box-shadow: 0 0 7px 25px rgba(252, 250, 250, 0);
+            }
+        }
+
+
+
+        .content-brands {
+            width: 355px;
+            display: flex;
+            flex-wrap: wrap;
+            h3 {
+                font-size: 40px;
+                color: #ffffff;
+                font-weight: 500;
+            }
+            p {
+                font-size: 16px;
+                margin-top: 24px;
+                color: #ffffff;
+            }
+            .btnTalkToUs {
+                margin-top: 32px;
+                color: #fff;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,135 @@
+.sec-findRightFit {
+    width: 100%;
+    padding: 166px 0 160px;
+    position: relative;
+    .bx-findRightFit {
+        display: flex;
+        justify-content: end;
+        .find-right-fit {
+            width: 355px;
+            text-align: right;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: end;
+            h3 {
+                font-size: 40px;
+                color: #222222;
+                font-weight: 500;
+            }
+            p {
+                font-size: 16px;
+                margin-top: 24px;
+            }
+            .btnTalkToUs {
+                margin-top: 32px;
+                color: #fff;
+            }
+        }
+    }
+    .carousel-findRightFit {
+        margin-top: 56px;
+        ul {            
+            display: flex;
+            justify-content: space-between;
+            li {
+                &.active{                    
+                    width: 368px;
+                    position: relative;
+                    .img-findRightFit {
+                        display: none;
+                    }
+                    .big-img-findRightFit {
+                        position: absolute;
+                        left: 0;
+                        bottom: 0;
+                        width: 368px;
+                        &::before {
+                            content: '';
+                            position: absolute;
+                            right: 0;
+                            bottom: -48px;
+                            background-color: #E24343;
+                            width: 100%;
+                            height: 490px; 
+                        }                           
+                        &::after {
+                            content: "";
+                            position: absolute;
+                            left: -45px;
+                            top: -20px;
+                            background-color: #E24343;
+                            width: 44px;
+                            height: 39px;
+                        }
+                        .mainImg-findRightFit {
+                            position: relative;
+                            img {
+                                width: 100%;
+                            }
+                        }
+                        .bx-followers {    
+                            width: 268px;
+                            height: 215px;
+                            background: #000;
+                            float: right;
+                            color: #fff;
+                            display: flex;
+                            flex-wrap: wrap;
+                            align-items: center;
+                            justify-content: center;
+                            text-align: center;
+                            padding: 36px 0;
+                            position: relative;
+                            z-index: 999;
+                            right: -16px;
+                            bottom: -6px;
+                            h3 {
+                                width: 100%;     
+                                font-size: 50px;       
+                                margin: 0;                    
+                            }
+                            p {
+                                width: 100%;    
+                                font-size: 30px;        
+                                margin: 0;   
+                            }
+                        }
+                    }
+                    .text-mainImg {
+                        position: absolute;
+                        color: #fff;
+                        padding: 12px;
+                        left: 0;
+                        bottom: -45px;
+                        width: 100%;
+                        font-size: 18px;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+    
+    .scroll-line-horizontal {
+        top: 60px;
+        left: 0;
+        background-color: rgb(0 0 0 / 41%);
+        right: unset;
+        width: 64%;
+    }
+    .pulse {
+        background: #000;
+        right: 0;
+        animation: shadow-pulse-right-fit 1.5s infinite;
+    }
+    @keyframes shadow-pulse-right-fit {
+        0% {
+            box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.582);
+        }
+    
+        100% {
+            box-shadow: 0 0 7px 25px rgba(0, 0, 0, 0);
+        }
+    }    
+
+}
