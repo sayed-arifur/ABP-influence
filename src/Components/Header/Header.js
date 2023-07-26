@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import '../assets/css/HeaderNav.css';
 import iconHumberger from '../assets/images/humberger.png';
 import iconHumbergerClose from '../assets/images/humberger-close.png';
+import iconHumbergerCloseWhite from '../assets/images/humberger-close-white.png';
+
 import logo from '../assets/images/logo.png';
 
 const Header = () => {
@@ -22,12 +24,31 @@ const Header = () => {
                                 humberger ? 
                                 <img src={iconHumberger} alt='' />
                                 : 
-                                <img src={iconHumbergerClose} alt='' />
+                                null
                             }
                         </div>
                         {
                             humberger ? 
-                            null : <div className='bx-open-menu'>lorem ipsum </div>
+                            null : <div className='bx-open-menu'>
+                                <div className='container'>
+                                    <div onClick={ShowMenu} className='icon-humberger close-icon-humberger'>
+                                        {
+                                            humberger ? 
+                                            null
+                                            : 
+                                            <img src={iconHumbergerCloseWhite} alt='' />
+                                        }
+                                    </div>
+                                    <div className='list-open-menu'>
+                                        <ul>
+                                            <li>Home</li>
+                                            <li>Works</li>
+                                            <li>Blog</li>
+                                            <li>About</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                         }  
                     </div>
                 </div>

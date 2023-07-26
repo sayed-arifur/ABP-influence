@@ -56,7 +56,9 @@ body{color:#000;font-size:14px;width:100%;
         top: -6px;
     }
 }
-   
+.close-icon-humberger {
+    margin-top: 12px;
+}
 .SLR-vertical-Small {
     position: absolute;
     height: 49px;
@@ -67,6 +69,7 @@ body{color:#000;font-size:14px;width:100%;
 .icon-humberger {
     width: 32px;
     padding: 4px;
+    cursor: pointer;
     img {
         width: 100%;
     }
@@ -76,7 +79,21 @@ body{color:#000;font-size:14px;width:100%;
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: #000000c7;
-    top: 55px;
+    background-color: #000000ea;
+    top: 0px;
     z-index: 9;
+    transition-duration: .5s;
+}
+.list-open-menu {
+    margin-top: 64px;
+    ul {
+        display: flex;
+        justify-content: space-between;
+        gap: 32px;
+        li {
+            color: #fff;
+            font-size: 64px;
+            font-weight: 800;
+        }
+    }
 }

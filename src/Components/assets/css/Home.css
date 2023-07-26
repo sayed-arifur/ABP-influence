@@ -58,6 +58,10 @@ body {
   top: -6px;
 }
 
+.close-icon-humberger {
+  margin-top: 12px;
+}
+
 .SLR-vertical-Small {
   position: absolute;
   height: 49px;
@@ -69,6 +73,7 @@ body {
 .icon-humberger {
   width: 32px;
   padding: 4px;
+  cursor: pointer;
 }
 .icon-humberger img {
   width: 100%;
@@ -79,7 +84,22 @@ body {
   left: 0;
   bottom: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.7803921569);
-  top: 55px;
+  background-color: rgba(0, 0, 0, 0.9176470588);
+  top: 0px;
   z-index: 9;
+  transition-duration: 0.5s;
+}
+
+.list-open-menu {
+  margin-top: 64px;
+}
+.list-open-menu ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+.list-open-menu ul li {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 800;
 }
