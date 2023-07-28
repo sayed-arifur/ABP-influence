@@ -183,30 +183,7 @@
         width: 1px;
         background-color: #ffffff52;
     }
-
-    // @keyframes shadow-pulse {
-    //     0% {
-    //         box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.582);
-    //     }
-
-    //     100% {
-    //         box-shadow: 0 0 7px 25px rgba(0, 112, 244, 0);
-    //     }
-    // }
-
-    // .pulse {
-    //     margin: 25% auto 0 auto;
-    //     width: 13px;
-    //     height: 13px;
-    //     background: #fff;
-    //     border-radius: 50px;
-    //     animation: shadow-pulse 1.5s infinite;
-    //     position: absolute;
-    //     left: -5px;
-    //     top: 69.3%;
-    // }
 }
-
 .TxtwhatWeCreate {
     margin-top: 42px;
     .talkToUs {
@@ -222,4 +199,47 @@
             font-size: 20px;
         }
     }
+}
+
+
+// =  Responsive = //
+@media (max-width: 768px){
+    .sec-banner .lower-content h3 {
+        font-size: 16px;
+        padding: 8px 12px;
+    }
+    .sec-banner .lower-content p {
+        font-size: 33px;
+        line-height: 33px;
+        margin-top: 13px;
+        color: #000;
+        font-weight: 600;
+    }
+    .sec-banner .scroll-line {
+        display: none;
+    }
+    .sec-banner {
+        padding-top: 330px;
+    }
+    .sec-banner .overlay-banner {
+        top: 330px;
+    }
+    .sec-banner .lower-content {
+        margin-top: 0;
+        padding-left: 16px;
+    }
+    .sec-banner .bx-view-like-following {
+        width: 100%;
+        margin: auto;
+        display: none;
+    }
+    .sec-banner .lower-content h3 {
+        background-color: #fff;
+        color: #000;
+    }
+    .sec-banner .bx-banner-content {
+        height: auto;
+        padding-bottom: 0;
+    }
+
 }

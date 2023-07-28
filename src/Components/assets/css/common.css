@@ -241,3 +241,22 @@ figure {
   width: 1024px;
   margin: 0 auto;
 }
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  .scroll-line-horizontal {
+    display: none;
+  }
+  .list-open-menu ul {
+    flex-wrap: wrap;
+  }
+  .list-open-menu ul li {
+    width: 100%;
+    font-size: 34px;
+  }
+  .btnTalkToUs span:nth-child(2) {
+    display: none;
+  }
+}

@@ -97,3 +97,17 @@ body{color:#000;font-size:14px;width:100%;
         }
     }
 }
+
+// = Responsive = //
+@media(max-width: 768px){
+    .btnTalkToUs {
+        width: 164px;
+        height: 52px;
+        border-radius: 28px;
+        font-size: 17px;
+    }    
+    .title-ww-create {
+        color: #000;
+        font-size: 22px;
+    }
+}

@@ -8,10 +8,11 @@ import bannerWwCreate01 from '../assets/images/banner-ww-create-01.jpg';
 
 const Banner = () => {
     return (
+        
         <>
         <section className='sec-banner'>
             <div className='video-banner'>
-                <video className='myVideo' src="https://www.spikestream.co/static/media/Intro.119a43e6572bfceec998.mp4" autoPlay
+                <video className='myVideo' src="https://www.spikestream.co/static/media/Intro.bbd1ea0e64dd1bdd241f.mp4" autoPlay
                     playsinline
                     muted
                     loop
@@ -51,17 +52,17 @@ const Banner = () => {
                         </div>
 
                         <div className='TxtwhatWeCreate'>
-                                <div className='talkToUs'>
-                                    <div className='contentTalkToUs'>
-                                        <p>We facilitate valuable partnerships with our portfolio of diverse social content creators to grow your business.</p>
-                                    </div>
-                                    <div className='btnTalkToUs'>
-                                        <span>TALK TO US</span>
-                                        <span>
-                                            <img src={arrow_circle} alt='' />
-                                        </span>
-                                    </div>
+                            <div className='talkToUs'>
+                                <div className='contentTalkToUs'>
+                                    <p>We facilitate valuable partnerships with our portfolio of diverse social content creators to grow your business.</p>
                                 </div>
+                                <div className='btnTalkToUs'>
+                                    <span>TALK TO US</span>
+                                    <span>
+                                        <img src={arrow_circle} alt='' />
+                                    </span>
+                                </div>
+                            </div>
                         </div>
 
                     </div>

@@ -49,3 +49,28 @@
         background: url('../images/arrow_next_white.png') no-repeat;
     }
 }
+
+
+// =  Responsive = //
+@media (max-width: 768px){
+    .TxtwhatWeCreate .talkToUs {
+        gap: 17px;
+        padding-left: 16px;
+        flex-wrap: wrap;
+        padding-left: 37px;
+    }
+    .TxtwhatWeCreate .contentTalkToUs p {
+        color: #000;
+    }
+    .TxtwhatWeCreate {
+        margin-top: 18px;
+        padding: 30px 0 36px;
+    }
+    .sec-whatWeCreate {
+        background-color: #eaeaea;
+        padding: 40px 0 46px;
+    }
+    .sec-whatWeCreate .slick-slide {
+        height: auto;
+    }
+}

@@ -155,3 +155,43 @@
 .TxtwhatWeCreate .contentTalkToUs p {
   font-size: 20px;
 }
+
+@media (max-width: 768px) {
+  .sec-banner .lower-content h3 {
+    font-size: 16px;
+    padding: 8px 12px;
+  }
+  .sec-banner .lower-content p {
+    font-size: 33px;
+    line-height: 33px;
+    margin-top: 13px;
+    color: #000;
+    font-weight: 600;
+  }
+  .sec-banner .scroll-line {
+    display: none;
+  }
+  .sec-banner {
+    padding-top: 330px;
+  }
+  .sec-banner .overlay-banner {
+    top: 330px;
+  }
+  .sec-banner .lower-content {
+    margin-top: 0;
+    padding-left: 16px;
+  }
+  .sec-banner .bx-view-like-following {
+    width: 100%;
+    margin: auto;
+    display: none;
+  }
+  .sec-banner .lower-content h3 {
+    background-color: #fff;
+    color: #000;
+  }
+  .sec-banner .bx-banner-content {
+    height: auto;
+    padding-bottom: 0;
+  }
+}
